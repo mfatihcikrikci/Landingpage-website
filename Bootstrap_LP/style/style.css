@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+::selection {
+    background-color: darkseagreen;
+}
+
+body h2 {
+    font-family: 'Open sans', sans-serif;
+}
+
+.sliderImg {
+    padding-top: 55px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.aboutus {
+    background-color: #f2f2f2;
+}
+
+.hrline {
+    border: none;
+    border-top: 3px solid rgb(0, 0, 0);
+    background-color: #000;
+    max-width: 250px;
+    margin: 25px auto;
+    opacity: .7;
+}
+
+.iconlinegray {
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.iconlinewhite {
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #fff;
+    background-color: #fff;
+}
+
+.card {
+    border-width: 1px;
+}
+
+.card img:hover {
+    transition: 0.7s;
+    opacity: 0.7;
+}
+
+.card-img-top {
+    background-color: #76818d;
+}
+
+.gallery {
+    background-color: #f2f2f2;
+}
+
+.figure-img{
+    width: 300px !important;
+    height: 200px !important;
+}
+
+.figure:hover {
+    opacity: 0.8;
+}
+
+input {
+    width: 50% !important;
+    padding-left: 15px;
+}
+
+label {
+    width: 25% !important;
+    margin-bottom: 40px;
+}
+.form-control {
+    margin: 40px;
+}
+
+textarea {
+    width: 50% !important;
+}
+@media (max-width: 768px) {
+
+    .sliderImg {
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .sliderImg {
+        object-fit: cover;
+    }
+
+    .figure-img {
+        object-fit: cover;
+    }
+}
+
+.btn:after {
+    border-bottom-width: 2px;
+    border-color: #ffeb3b;
+    bottom: -7px;
+    right: 0px;
+}
+
+.btn:hover,
+.btn.btn.hover {
+    background-color: #ffeb3b;
+}
